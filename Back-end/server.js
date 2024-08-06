@@ -29,7 +29,7 @@ app.use('/api/message',messageRoutes);
 app.use(notFound);
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5002;
+const PORT = process.env.PORT || 5001;
 
 const server = app.listen(PORT, console.log(`Server started on port ${PORT}`.yellow.bold));
 
